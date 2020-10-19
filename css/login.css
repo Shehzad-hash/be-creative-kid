@@ -1,0 +1,67 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    overflow-x: hidden;
+}
+
+.login-form {
+    width: 400px;
+}
+
+.login-form .login-heading {
+    color: rgb(10.1, 255, 245);
+    font-weight: 500;
+}
+
+.login-form label {
+    margin-top: 0.5em;
+    color: black;
+}
+
+.login-form .form-btn {
+    background-color: #222222;
+    padding: 0.4em 1.8em;
+    color: white;
+    border: none;
+    font-weight: 500;
+    margin-top: 1.3em;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 200ms ease-in-out;
+}
+
+.login-form .form-btn.register {
+    background-color: rgba(34, 34, 34, 0.6);
+}
+
+.login-form .form-btn:hover {
+    background-color: white;
+    color: #222222;
+    text-decoration: underline;
+}
+
+.my-form {
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+/* Application side */
+.application-side {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .my-form {
+        justify-content: center;
+        align-items: center;
+        padding: 0 1em;
+    }
+}
